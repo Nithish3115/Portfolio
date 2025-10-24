@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Download, Mail, Github, Linkedin, ChevronDown, Code2 } from "lucide-react";
 import { SiLeetcode } from "react-icons/si";
-import avatarImage from "@assets/generated_images/Professional_software_engineer_portrait_74905664.png";
-
+import avatarImage from "@assets/generated_images/image.jpeg";
 const roles = [
   "Backend Developer",
   "AWS Cloud Practitioner",

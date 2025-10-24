@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 export default defineConfig({
   plugins: [react()],
   root: './client',
-  base: '/your-repo-name/', // Replace with your actual repo name
+  base: '/Portfolio/', // Changed from /your-repo-name/ to /Portfolio/
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './client/src'),

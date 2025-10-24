@@ -8,9 +8,10 @@ export default defineConfig({
   base: '/Portfolio/', // Replace with your actual repo name
   resolve: {
     alias: {
-      '@': '/client/src',
-      '@assets': '/client/src/assets',
+      '@': path.resolve(__dirname, './client/src'),
+      '@assets': path.resolve(__dirname, './client/src/assets'),
     },
+    extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json']
   },
   build: {
     outDir: '../dist',

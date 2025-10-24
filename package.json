@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://Nithish3115.github.io/Portfolio",
+  "homepage": "https://nithish3115.github.io/Portfolio",
   "scripts": {
     "dev": "tsx server/index.ts",
     "build": "vite build",

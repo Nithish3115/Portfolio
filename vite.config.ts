@@ -4,14 +4,16 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  root: './client',
   base: '/Portfolio/', // Replace with your actual repo name
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './client/src'),
-      '@assets': path.resolve(__dirname, './client/src/assets'),
+      '@': '/client/src',
+      '@assets': '/client/src/assets',
     },
   },
   build: {
-    outDir: 'dist',
+    outDir: '../dist',
+    emptyOutDir: true,
   },
 });
